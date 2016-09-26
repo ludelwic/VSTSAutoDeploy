@@ -481,6 +481,19 @@
           }
         }
       ]
+    },
+    {
+      "name": "additionalstorage",
+      "type": "Microsoft.Storage/storageAccounts",
+      "location": "[resourceGroup().location]",
+      "apiVersion": "2015-06-15",
+      "dependsOn": [ ],
+      "tags": {
+        "displayName": "additionalstorage"
+      },
+      "properties": {
+        "accountType": "Premium_LRS"
+      }
     }
   ]
 }
