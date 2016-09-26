@@ -489,7 +489,7 @@
       "apiVersion": "2015-06-15",
       "dependsOn": [ ],
       "tags": {
-        "displayName": "additionalstorage"
+        "displayName": "addgitvstspremiumsa"
       },
       "properties": {
         "accountType": "Premium_LRS"
